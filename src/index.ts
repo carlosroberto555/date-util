@@ -1,7 +1,7 @@
 export default class DateUtil implements BaseDateUtil {
 	date: Date;
 
-	constructor(date: Date | string | number) {
+	constructor(date: DateParam) {
 		this.date = new Date(date);
 	}
 
