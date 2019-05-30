@@ -1,0 +1,11 @@
+# Language setting http://docs.shippable.com/ci/languages/node/
+language: node_js
+
+branches:
+  only:
+    - shippable-test
+
+build:
+  ci:
+    - yarn install
+    - yarn test
