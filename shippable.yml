@@ -1,6 +1,9 @@
 # Language setting http://docs.shippable.com/ci/languages/node/
 language: node_js
 
+node_js:
+  - 10.16.0
+
 branches:
   only:
     - shippable-test
